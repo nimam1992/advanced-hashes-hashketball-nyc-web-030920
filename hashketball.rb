@@ -288,8 +288,10 @@ end
 
 def winning_team()
   player_lib = game_hash()
-  player_lib[:home].each do |x,y|
-    p y
+  brooklyn = 0
+  charlotte = 0
+  player_lib[:home].each do |team,elements|
+    if team = :players
   end
 end
 
