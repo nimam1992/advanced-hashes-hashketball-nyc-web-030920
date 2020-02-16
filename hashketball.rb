@@ -288,19 +288,19 @@ end
 
 def winning_team()
   player_lib = game_hash()
-  brooklyn = 0
-  charlotte = 0
+  b = 0
+  c = 0
   player_lib[:home].each do |team,elements|
     if team == :players
       elements.each do |player|
-        brooklyn+=player[:points]
+        b+=player[:points]
       end
     end
   end
   player_lib[:away].each do |team,elements|
     if team == :players
       elements.each do |player|
-        charlotte+=player[:points]
+        c+=player[:points]
       end
     end
   end
