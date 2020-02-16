@@ -276,6 +276,8 @@ def long_name_steals_a_ton()
           if player[:rebounds] > longest_rebound
             longest_rebound = player[:rebounds]
           end
+          if player[:player_name] = long_player
+            long_rebound = player[:rebounds]
         end
       end
     end
@@ -283,4 +285,4 @@ def long_name_steals_a_ton()
   longest_rebound
 end
 
-p long_name_steals_a_ton()
+
