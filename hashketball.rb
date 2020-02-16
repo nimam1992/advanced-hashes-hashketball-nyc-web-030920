@@ -292,6 +292,7 @@ def winning_team()
   charlotte = 0
   player_lib[:home].each do |team,elements|
     if team = :players
+      elements.each do |player|
   end
 end
 
