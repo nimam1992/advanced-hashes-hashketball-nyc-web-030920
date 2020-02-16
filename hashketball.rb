@@ -265,7 +265,7 @@ end
 
 def long_name_steals_a_ton()
   long_player = player_with_longest_name()
-  long_rebound = 0
+  long_rebound_player = 0
   longest_rebound = 0
   player_lib = game_hash()
   player_lib
@@ -275,9 +275,9 @@ def long_name_steals_a_ton()
         data.each do |player|
           if player[:rebounds] > longest_rebound
             longest_rebound = player[:rebounds]
+            long_rebound_player = player[:player_name]
           end
         end
-        p data.index(long_player)
       end
     end
   end
