@@ -265,7 +265,25 @@ end
 
 def long_name_steals_a_ton()
   long_player = player_with_longest_name()
-  p long_player
+  long_rebound = 0
+  longest_rebound = 0
+  player_lib = game_hash()
+  player_lib
+  player_lib.each do |team,elements|
+    elements.each do |attribute,data|
+      if attribute == :players
+        data.each do |player|
+          if player[:rebounds] > longest_rebound
+            longest_rebound = player[:rebounds]
+          end
+        end
+      end
+    end
+  end
+  longest_rebound
 end
 
-long_name_steals_a_ton()
+p long_name_steals_a_ton()
+
+
+
