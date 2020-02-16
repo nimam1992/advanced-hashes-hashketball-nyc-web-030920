@@ -301,6 +301,13 @@ def winning_team()
     if team == :players
       elements.each do |player|
         charlotte+=player[:points]
+      end
+    end
+  end
+  if brookyln > charlotte
+    return 'Brooklyn Nets'
+  else
+    return Charlotte Hornets
 end
 
 p winning_team()
