@@ -274,7 +274,7 @@ def long_name_steals_a_ton()
       if attribute == :players
         data.each do |player|
           if player[:rebounds] > longest_rebound
-            longest_rebound = player[:rebounds]
+            longest_rebound = player[:steals]
             long_rebound_player = player[:player_name]
           end
         end
