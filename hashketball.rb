@@ -300,4 +300,4 @@ def winning_team()
   brooklyn
 end
 
-winning_team()
+p winning_team()
