@@ -277,7 +277,7 @@ def long_name_steals_a_ton()
             longest_rebound = player[:rebounds]
           end
         end
-        p data
+        p data.index(long_player)
       end
     end
   end
