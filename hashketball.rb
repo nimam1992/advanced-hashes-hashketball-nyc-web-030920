@@ -282,6 +282,6 @@ def long_name_steals_a_ton?()
     end
   end
   if steals_player = long_player
-    return 'Yesy'
+    return 'Yes'
   end
 end
