@@ -293,7 +293,7 @@ def winning_team()
   player_lib[:home].each do |team,elements|
     if team == :players
       elements.each do |player|
-        p player
+        brooklyn+=player[:points]
       end
     end
   end
