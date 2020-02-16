@@ -285,3 +285,12 @@ def long_name_steals_a_ton?()
     return true
   end
 end
+
+def winning_team()
+  player_lib = game_hash()
+  player_lib[:home].each do |x|
+    p x 
+  end
+end
+
+winning_team()
