@@ -297,7 +297,10 @@ def winning_team()
       end
     end
   end
-  brooklyn
+  player_lib[:away].each do |team,elements|
+    if team == :players
+      elements.each do |player|
+        charlotte+=player[:points]
 end
 
 p winning_team()
