@@ -294,6 +294,8 @@ def winning_team()
     if team = :players
       elements.each do |player|
         p player
+      end
+    end
   end
 end
 
