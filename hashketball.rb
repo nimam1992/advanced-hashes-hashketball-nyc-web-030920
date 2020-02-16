@@ -265,7 +265,7 @@ end
 
 def long_name_steals_a_ton()
   long_player = player_with_longest_name()
-  long_rebound_player = 0
+  steals_player = 0
   most_steals = 0
   player_lib = game_hash()
   player_lib
