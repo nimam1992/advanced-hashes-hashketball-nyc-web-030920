@@ -304,7 +304,7 @@ def winning_team()
       end
     end
   end
-  if brookyln > charlotte
+  if b > c
     return 'Brooklyn Nets'
   else
     return 'Charlotte Hornets'
