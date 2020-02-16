@@ -289,7 +289,7 @@ end
 def winning_team()
   player_lib = game_hash()
   player_lib[:home].each do |x|
-    p x 
+    p x
   end
 end
 
