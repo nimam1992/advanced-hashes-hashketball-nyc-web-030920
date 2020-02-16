@@ -310,5 +310,3 @@ def winning_team()
     return 'Charlotte Hornets'
   end
 end
-
-
